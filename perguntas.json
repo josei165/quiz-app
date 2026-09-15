@@ -1,0 +1,1757 @@
+{
+    "sections": [
+        {
+            "title": "1. Hardware, Software e a Evolução da Computação",
+            "questions": [
+                {
+                    "id": "s1q1",
+                    "type": "multiple_choice",
+                    "prompt": "À medida que o hardware evolui, o software também muda a fim de se tornar acessível ao usuário final. A seguir constam os principais recursos/equipamentos históricos da era do computador:\n\nI – Mark I.\nII – ENIAC (Computador Integrador Numérico Eletrônico).\nIII – EDVAC (Computador Eletrônico com Discreta Variação Automática).\nIV – EDSAC (Calculadora Automática com Armazenamento por Retardo Eletrônico).\nV – LEO (Escritório Eletrônico de Lyons).\n( ) Primeiro computador, feito para fins militares para auxiliar nos cálculos de precisão necessários para balística.\n( ) O primeiro computador eletrônico à válvula, sua memória era muito pequena, e a cada nova operação era necessário reconfigurar toda a sua fiação, exigindo um enorme esforço humano.\n( ) Foi o primeiro computador eletrônico com programa armazenado utilizando sistema binário, tornando-se a arquitetura padrão para os computadores mais modernos.\n( ) O primeiro computador operacional em grande escala capaz de armazenar seus próprios programas.\n( ) O primeiro computador comercial do mundo que começou a automatizar os trabalhos de escritórios.\n\nDe acordo com as sentenças acima, assinale a resposta certa dada pela associação histórica de cada tipo de computador com sua finalidade:",
+                    "options": [
+                        {
+                            "key": "a",
+                            "text": "I – II – III – IV – V."
+                        },
+                        {
+                            "key": "b",
+                            "text": "I – III – II – V – IV."
+                        },
+                        {
+                            "key": "c",
+                            "text": "II – I – IV – III – V."
+                        },
+                        {
+                            "key": "d",
+                            "text": "I – IV – III – II – V."
+                        }
+                    ],
+                    "correct": "a",
+                    "explanation": "Mark I (militar/balística, Marinha dos EUA) → ENIAC (válvulas, memória pequena, rewiring manual) → EDVAC (programa armazenado em binário, arquitetura padrão/von Neumann) → EDSAC (primeiro computador operacional em grande escala com programas armazenados) → LEO (primeiro computador comercial do mundo, automação de escritório). Sequência: I – II – III – IV – V."
+                },
+                {
+                    "id": "s1q2",
+                    "type": "multiple_choice",
+                    "prompt": "Sobre o software é CORRETO afirmar:",
+                    "options": [
+                        {
+                            "key": "a",
+                            "text": "O software é criado por meio de regras em linguagem de programação que especificam estrutura de dados, atributos procedimentais e requisitos, convertidos em instruções executáveis."
+                        },
+                        {
+                            "key": "b",
+                            "text": "Para criar software, programadores usam uma linguagem que é interpretada por um compilador, que a transforma em código binário lido pelo hardware."
+                        },
+                        {
+                            "key": "c",
+                            "text": "O software é um conjunto de algoritmos codificados que permite ao computador executar operações culminando em tarefas."
+                        },
+                        {
+                            "key": "d",
+                            "text": "Todas as anteriores."
+                        }
+                    ],
+                    "correct": "d",
+                    "explanation": "As três afirmações (a, b, c) descrevem corretamente, sob ângulos diferentes, o que é software: regras/linguagem de programação, compilação para código de máquina e conjunto de algoritmos executáveis."
+                },
+                {
+                    "id": "s1q3",
+                    "type": "multiple_choice",
+                    "prompt": "A evolução do software perpassou por diversas aplicações, as quais iremos recordar a seguir.\nI – Os primeiros anos (1950 até 1960).\nII – A segunda era (1960 até 1970).\nIII – A terceira era (1970 até hoje).\nIV – A quarta era (apenas começando)\n( ) O hardware dedicava-se à execução de um único programa que, por sua vez, dedicava-se a uma única aplicação específica e usava uma orientação batch (em lote) para a maioria dos sistemas.\n( ) Sistemas multiusuários ofereceram sofisticação de software e hardware, melhorando a interação homem-máquina, onde foi o período da multiprogramação.\n( ) Sistemas distribuídos e múltiplos computadores, onde cada um, executando funções concorrentemente e comunicando-se um com o outro, aumentou intensamente a complexidade dos sistemas baseados em computador.\n( ) Tecnologias orientadas a objetos, orientadas a documentos nos quais os sistemas especialistas e a inteligência artificial tornam-se prática em problemas de amplo espectro do mundo real. De acordo com cada época e suas aplicações descritas acima, assinale a alternativa CORRETA:",
+                    "options": [
+                        {
+                            "key": "a",
+                            "text": "I – II – III – IV."
+                        },
+                        {
+                            "key": "b",
+                            "text": "I – II – IV – III."
+                        },
+                        {
+                            "key": "c",
+                            "text": "II – I – III – IV."
+                        },
+                        {
+                            "key": "d",
+                            "text": "I – III – II – IV."
+                        }
+                    ],
+                    "correct": "a",
+                    "explanation": "Batch/único programa = 1ª era (I); multiprogramação/multiusuário = 2ª era (II); sistemas distribuídos = 3ª era (III); orientação a objetos/IA = 4ª era (IV). Sequência: I – II – III – IV."
+                },
+                {
+                    "id": "s1q4",
+                    "type": "true_false_list",
+                    "prompt": "O software é classificado por sete diferentes categorias.\n\nAssinale cada sentença a seguir com V para verdadeiro ou F para falso para as informações apresentadas para estas categorias.",
+                    "items": [
+                        "O software básico é uma coleção de programas que dão apoio a outros programas (compiladores, editores, drivers, componentes do SO).",
+                        "O software de tempo real monitora, analisa e controla eventos do mundo real.",
+                        "O software comercial facilita operações comerciais e decisões administrativas (estoque, finanças, vendas).",
+                        "O software científico e de engenharia trata de algoritmos com intenso processamento numérico (astronomia, naves espaciais, matemática avançada).",
+                        "O software embutido controla produtos e sistemas para mercados industriais e de consumo (teclado de micro-ondas, funções digitais em automóveis).",
+                        "O software de computador pessoal é usado em uso pessoal (editores de texto, planilhas, calculadora, jogos).",
+                        "O software de IA usa algoritmos não numéricos para problemas complexos pouco favoráveis à computação/análise direta (reconhecimento de imagem, sistemas especialistas, redes neurais)."
+                    ],
+                    "correct": [
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V"
+                    ],
+                    "explanation": "Todas as sentenças correspondem às definições clássicas de Pressman para as sete categorias de software."
+                },
+                {
+                    "id": "s1q5",
+                    "type": "discursive",
+                    "prompt": "Explique por que, com o passar do tempo, o hardware vai se desgastando, exigindo manutenção, e o software vai se deteriorando, exigindo evolução ou novo desenvolvimento.",
+                    "model_answer": "O hardware sofre desgaste físico real: componentes eletrônicos e mecânicos se deterioram com uso, calor, poeira e o tempo, exigindo manutenção corretiva/preventiva até se tornarem obsoletos. O software não se desgasta fisicamente (é um artefato lógico), mas 'deteriora' porque: (1) mudanças e correções sucessivas (manutenção) vão introduzindo efeitos colaterais e degradando sua estrutura/design original, aumentando a complexidade e o número de defeitos latentes; (2) o ambiente ao redor muda — novos requisitos de negócio, novas plataformas, novos sistemas operacionais e integrações — e o software que não acompanha essa evolução perde utilidade e compatibilidade. Por isso, ao invés de manutenção física, o software exige manutenção evolutiva/corretiva constante ou, quando a deterioração é grande demais, reengenharia ou substituição completa."
+                }
+            ]
+        },
+        {
+            "title": "2. Engenharia de Software",
+            "questions": [
+                {
+                    "id": "s2q1",
+                    "type": "discursive",
+                    "prompt": "Conceitue o que é Engenharia de Software e diga por que ela existe.",
+                    "model_answer": "Engenharia de Software é a disciplina de engenharia responsável pela aplicação de métodos, técnicas, ferramentas e princípios sistemáticos, disciplinados e quantificáveis ao desenvolvimento, operação e manutenção de software, com o objetivo de produzir sistemas confiáveis, dentro do prazo, do orçamento e com qualidade. Ela existe porque software é um produto complexo, intangível e sujeito a mudanças constantes; sem uma abordagem de engenharia (a chamada 'crise do software', identificada no final dos anos 1960), projetos frequentemente estouravam prazo e custo, entregavam produtos de baixa qualidade e difíceis de manter. A Engenharia de Software surgiu para tratar o desenvolvimento de software com o mesmo rigor de outras engenharias."
+                },
+                {
+                    "id": "s2q2",
+                    "type": "multiple_choice",
+                    "prompt": "A _____________________________ é o estabelecimento e uso de sólidos princípios de engenharia a fim de obter um software que seja confiável e que funcione de forma econômica e eficiente em máquinas reais.\n\nAssinale a alternativa que corresponde à definição CORRETA:",
+                    "options": [
+                        {
+                            "key": "a",
+                            "text": "Engenharia de Requisitos."
+                        },
+                        {
+                            "key": "b",
+                            "text": "Engenharia de Projetos."
+                        },
+                        {
+                            "key": "c",
+                            "text": "Engenharia de Software."
+                        },
+                        {
+                            "key": "d",
+                            "text": "Engenharia de Processos."
+                        }
+                    ],
+                    "correct": "c",
+                    "explanation": "Essa é a definição clássica de Engenharia de Software (Fritz Bauer, conferência da OTAN de 1968)."
+                },
+                {
+                    "id": "s2q3",
+                    "type": "discursive",
+                    "prompt": "Quais são os principais motivos pela existência da crise de software a partir da década de 60?",
+                    "model_answer": "A 'crise do software' surgiu com o rápido crescimento da complexidade e da demanda por sistemas, enquanto os métodos de desenvolvimento continuavam artesanais. Principais causas: estimativas de prazo e custo pouco confiáveis; produtividade dos programadores insuficiente para a demanda; software de baixa qualidade, com muitos defeitos; dificuldade em medir e avaliar o processo de desenvolvimento; falta de métodos, técnicas e ferramentas sistemáticas; dificuldade de manutenção de sistemas legados; e comunicação deficiente entre desenvolvedores e usuários, levando a requisitos mal compreendidos. Isso motivou a conferência da OTAN em 1968, onde o termo 'engenharia de software' foi cunhado como resposta a essa crise."
+                },
+                {
+                    "id": "s2q4",
+                    "type": "true_false_list",
+                    "prompt": "A engenharia de software é uma aliada indispensável às empresas de software. A respeito das características e da importância, assinale V para verdadeiro ou F para falso.",
+                    "items": [
+                        "Define métodos sistemáticos para o desenvolvimento de software, buscando melhorar as técnicas e ferramentas para aumentar produtividade e qualidade.",
+                        "É uma disciplina da engenharia de sistemas que trata de todos os aspectos da produção de software, do levantamento de requisitos à implantação e manutenção.",
+                        "É um conjunto de atividades, parcial ou totalmente ordenadas, para obter um produto de software de qualidade e cumprir corretamente os contratos.",
+                        "A Engenharia de Software originou-se na quarta era da evolução do software, fora do período da crise do software."
+                    ],
+                    "correct": [
+                        "V",
+                        "V",
+                        "V",
+                        "F"
+                    ],
+                    "explanation": "As três primeiras são corretas. A quarta é falsa: a Engenharia de Software surgiu no final dos anos 1960 (conferência da OTAN, 1968), justamente durante a crise do software, e não na quarta era (orientada a objetos/IA), que é muito posterior."
+                },
+                {
+                    "id": "s2q5",
+                    "type": "multiple_choice",
+                    "prompt": "Roger Pressman definiu que a Engenharia de Software é composta por uma tecnologia em camadas, com foco em:\nI - Qualidade.\nII - Processo.\nIII - Métodos.\nIV - Ferramentas.\n( ) Dá-se ênfase ao apoio automatizado ou semiautomatizado para processos e métodos.\n( ) Dá-se ênfase às abordagens e às atividades necessárias para a construção de um software.\n( ) Dá-se ênfase ao planejamento das atividades e ao controle do projeto de software.\n( ) Dá-se ênfase à preocupação da disciplina, padronização e satisfação dos clientes.\n\nDe acordo com as sentenças acima, associe a sequência correta das definições dadas para cada camada:",
+                    "options": [
+                        {
+                            "key": "a",
+                            "text": "I – II – III – IV."
+                        },
+                        {
+                            "key": "b",
+                            "text": "I – III – II – IV."
+                        },
+                        {
+                            "key": "c",
+                            "text": "II – I – IV – III."
+                        },
+                        {
+                            "key": "d",
+                            "text": "IV – III – II – I."
+                        }
+                    ],
+                    "correct": "d",
+                    "explanation": "Apoio automatizado/semiautomatizado = Ferramentas (IV); abordagens/atividades técnicas de construção = Métodos (III); planejamento e controle do projeto = Processo (II); disciplina, padronização e satisfação do cliente = Qualidade (I, base da pirâmide de Pressman). Sequência: IV – III – II – I."
+                },
+                {
+                    "id": "s2q6",
+                    "type": "discursive",
+                    "prompt": "Exemplifique cada um dos 12 princípios da Engenharia de Software descritos por Carvalho (2001), em seu livro Introdução à Engenharia de Software: Formalidade, Abstração, Decomposição, Generalização, Flexibilidade, Padronização, Rastreabilidade, Desenvolvimento iterativo, Gerenciamento de requisitos, Arquiteturas baseadas em componentes, Modelagem visual, Verificação contínua da qualidade.",
+                    "model_answer": "Formalidade: uso de notações e métodos matemáticos/formais para especificar sistemas críticos. Abstração: focar nos aspectos essenciais do problema, ignorando detalhes irrelevantes (ex.: diagramas de alto nível). Decomposição: dividir o sistema em módulos menores e mais gerenciáveis. Generalização: reaproveitar soluções genéricas para problemas semelhantes (ex.: frameworks, bibliotecas). Flexibilidade: projetar para acomodar mudanças futuras com o menor impacto possível. Padronização: seguir convenções e padrões de codificação e documentação. Rastreabilidade: manter o vínculo entre requisitos, design, código e testes. Desenvolvimento iterativo: construir o sistema em ciclos curtos e repetidos, refinando a cada iteração. Gerenciamento de requisitos: controlar, documentar e negociar mudanças de requisitos ao longo do projeto. Arquiteturas baseadas em componentes: montar o sistema a partir de componentes reutilizáveis e bem definidos. Modelagem visual: usar diagramas (ex.: UML) para representar o sistema. Verificação contínua da qualidade: testar e revisar o software em todas as fases, não apenas ao final."
+                },
+                {
+                    "id": "s2q7",
+                    "type": "discursive",
+                    "prompt": "Defina o que é e para que serve a Metodologia de Desenvolvimento de Sistemas.",
+                    "model_answer": "É um conjunto estruturado de fases, atividades, técnicas, ferramentas e documentação padronizada que orienta a equipe durante todo o ciclo de vida do desenvolvimento de um sistema, do levantamento de requisitos à implantação e manutenção. Serve para dar previsibilidade e controle ao projeto, padronizar a forma de trabalho da equipe, facilitar a comunicação entre os envolvidos, reduzir riscos, melhorar a qualidade do produto final e permitir estimativas mais confiáveis de prazo e custo."
+                },
+                {
+                    "id": "s2q8",
+                    "type": "discursive",
+                    "prompt": "Explique por que a ausência de uma metodologia de desenvolvimento de sistemas pode levar ao caos, na medida em que cada indivíduo procura aplicar em seu projeto as melhores soluções dentro das limitações de sua experiência profissional.",
+                    "model_answer": "Sem uma metodologia definida, cada profissional tende a aplicar as práticas com que está mais familiarizado, de acordo com sua própria experiência, o que gera inconsistência entre os artefatos produzidos, falta de padronização de documentação e código, dificuldade de comunicação entre os membros da equipe, retrabalho, dificuldade de estimar prazos e custos, e problemas de manutenção futura, pois o próximo profissional pode não entender as escolhas feitas. O resultado é um processo desorganizado, com qualidade e produtividade imprevisíveis — o chamado 'caos' do desenvolvimento."
+                },
+                {
+                    "id": "s2q9",
+                    "type": "true_false_list",
+                    "prompt": "A respeito das metodologias de desenvolvimento de software, assinale V para verdadeiro ou F para falso:",
+                    "items": [
+                        "A comunicação entre profissionais é fundamental, devendo-se estabelecer um canal uniforme via processo de desenvolvimento definido.",
+                        "Ferramentas CASE auxiliam atividades de engenharia de software desde a análise de requisitos e modelagem até programação e testes.",
+                        "A avaliação da qualidade dos projetos é normalmente feita através das metodologias, processos e ciclos de vida adotados.",
+                        "Atualmente há muitas metodologias: as clássicas, mais estáveis e de caminho único, e as ágeis, mais dinâmicas e que exigem maior experiência da equipe."
+                    ],
+                    "correct": [
+                        "V",
+                        "V",
+                        "V",
+                        "V"
+                    ],
+                    "explanation": "Todas as afirmações são verdadeiras e refletem conceitos consolidados sobre metodologias de desenvolvimento."
+                },
+                {
+                    "id": "s2q10",
+                    "type": "discursive",
+                    "prompt": "Quais são as dez disciplinas que envolvem a Engenharia de Software segundo SWEBOK?",
+                    "model_answer": "O SWEBOK (Software Engineering Body of Knowledge) organiza, classicamente, o conhecimento em 10 áreas: (1) Requisitos de Software, (2) Projeto (Design) de Software, (3) Construção de Software, (4) Testes de Software, (5) Manutenção de Software, (6) Gerência de Configuração de Software, (7) Gerência de Engenharia de Software, (8) Processo de Engenharia de Software, (9) Ferramentas e Métodos de Engenharia de Software, e (10) Qualidade de Software. (Versões mais recentes do SWEBOK ampliaram esse número incluindo áreas como Engenharia de Segurança e Fundamentos de Computação/Engenharia.)"
+                },
+                {
+                    "id": "s2q11",
+                    "type": "multiple_choice",
+                    "prompt": "Um projeto de software é dividido em quatro grandes fases, que definem os marcos do progresso do projeto mediante seus ciclos de vida através das fases:\nI - Iniciação.\nII - Elaboração.\nIII - Construção.\nIV - Transição.\n( ) Deve garantir a entrega completa do produto, atendendo ao escopo e ao planejamento.\n( ) Definição do escopo do projeto, das equipes envolvidas e com atenção voltada para os riscos lógicos.\n( ) É a materialização da análise através da existência dos componentes que irão compor o projeto.\n( ) Deve garantir a realização da análise do projeto, onde serão criadas e documentadas as necessidades do usuário para implementação.\n\nAssinale a associação CORRETA dos itens apresentados acima:",
+                    "options": [
+                        {
+                            "key": "a",
+                            "text": "IV – II – III – I."
+                        },
+                        {
+                            "key": "b",
+                            "text": "I – IV – III – II."
+                        },
+                        {
+                            "key": "c",
+                            "text": "II – I – III – IV."
+                        },
+                        {
+                            "key": "d",
+                            "text": "IV – I – III – II."
+                        }
+                    ],
+                    "correct": "d",
+                    "explanation": "Entrega completa do produto = Transição (IV); definição do escopo e equipes/riscos = Iniciação (I); materialização/componentes do projeto = Construção (III); análise e documentação das necessidades do usuário = Elaboração (II). Sequência: IV – I – III – II."
+                }
+            ]
+        },
+        {
+            "title": "3. Ciclo de Vida de Software",
+            "questions": [
+                {
+                    "id": "s3q1",
+                    "type": "discursive",
+                    "prompt": "Conceitue o que é um ciclo de vida de software.",
+                    "model_answer": "Ciclo de vida de software é o conjunto de fases pelas quais um software passa desde sua concepção (levantamento de requisitos) até sua retirada de operação, incluindo tipicamente: análise/especificação de requisitos, projeto (design), implementação (codificação), testes, implantação e manutenção. Cada modelo de ciclo de vida (cascata, incremental, espiral, prototipação etc.) organiza essas fases de uma forma diferente, definindo quando e como cada atividade ocorre."
+                },
+                {
+                    "id": "s3q2",
+                    "type": "multiple_choice",
+                    "prompt": "Com relação aos quatro principais modelos de processo de ciclo de vida de software, preencha o nome correspondente: O modelo ______________________ é apropriado quando o cliente não tem os requisitos de entradas e saídas devidamente definidos e o cliente participa ativamente na validação da sua interface. No modelo ______________________ um software é desenvolvido em partes, cada qual adicionando alguma capacidade funcional a ele até que o software completo esteja implementado e a cada incremento são feitas extensões e modificações no projeto. Modelo ______________________ é orientado a riscos, e suas atividades são apresentadas em uma dimensão radial, na qual há sobreposição evolutiva das atividades de especificação, projeto, desenvolvimento, homologação e implantação. O modelo ______________________ se define como o desenvolvimento de um software e se dá de forma sequencial e linear a partir da atividade de verificação da viabilidade do desenvolvimento. Para cada etapa cumprida, segue-se a etapa imediatamente posterior.\n\nDe acordo com as sentenças acima, assinale a alternativa que traz a sequência correta das definições dadas para cada modelo:",
+                    "options": [
+                        {
+                            "key": "a",
+                            "text": "Cascata – Iterativo e Incremental – Espiral – Modelo RAD."
+                        },
+                        {
+                            "key": "b",
+                            "text": "Prototipação – Iterativo Incremental – Espiral – Cascata."
+                        },
+                        {
+                            "key": "c",
+                            "text": "Espiral – Baseada em Componentes – Modelo em V – Cascata."
+                        },
+                        {
+                            "key": "d",
+                            "text": "Prototipação – Quarta Geração – Espiral – Cascata."
+                        }
+                    ],
+                    "correct": "b",
+                    "explanation": "Requisitos não totalmente definidos + participação ativa do cliente na interface = Prototipação; desenvolvimento em partes que vão sendo adicionadas = Incremental; orientado a risco, atividades em espiral = Espiral; sequencial e linear = Cascata."
+                },
+                {
+                    "id": "s3q3",
+                    "type": "true_false_list",
+                    "prompt": "O modelo de ciclo de vida de um projeto de software é um aliado indispensável para o sucesso do projeto, permitindo aproveitar coerentemente seus recursos do projeto (pessoas, tecnologias, artefatos etc.). A respeito das características e importância dos modelos de ciclo de vida, assinale V para verdadeiro ou F para falso:",
+                    "items": [
+                        "No modelo linear (cascata), o software é executado e entregue com todas as suas funcionalidades em apenas uma fase, ao final do processo.",
+                        "O modelo iterativo realiza entregas em que uma versão básica é disponibilizada ao final do primeiro ciclo, e nos ciclos seguintes novas funcionalidades são agregadas até o produto completo.",
+                        "No modelo incremental, uma versão básica de boa parte das funcionalidades é disponibilizada no primeiro ciclo, e funções melhoradas são disponibilizadas posteriormente.",
+                        "O modelo em V enfatiza a estreita relação entre as atividades de teste e as demais atividades do projeto, verificando e validando os artefatos do início ao fim."
+                    ],
+                    "correct": [
+                        "V",
+                        "F",
+                        "F",
+                        "V"
+                    ],
+                    "explanation": "As afirmações 2 e 3 estão trocadas: a descrição do item 2 ('agregar NOVAS funcionalidades a cada ciclo') é do modelo INCREMENTAL, não do iterativo; e a descrição do item 3 ('versão básica que vai sendo melhorada/refinada') é do modelo ITERATIVO, não do incremental. Por isso ambas ficam Falsas nessa combinação. As afirmações 1 e 4 estão corretas."
+                }
+            ]
+        },
+        {
+            "title": "4. Engenharia de Requisitos",
+            "questions": [
+                {
+                    "id": "s4q1",
+                    "type": "multiple_choice",
+                    "prompt": "Trabalhar com requisito de software é muito importante, porém muitas organizações falham quando estão elaborando seus projetos.\n\nAssinale a opção correta dos fatores de falhas da área de requisitos segundo estudos do Standish Group (2014):\n( ) Falta de recursos tecnológicos e humanos - requisitos desnecessários - falta de suporte gerencial - especificação de sistema incompleta - mudança de requisitos.\n( ) Requisitos incompletos - expectativas não realistas - baixo envolvimento da gerência - falta de planejamento - falta de modelagem.\n( ) Requisitos incompletos - baixo envolvimento do cliente - expectativas não realistas - mudanças nos requisitos - requisitos desnecessários.\n( ) Falta de suporte gerencial - falta de recursos tecnológicos e humanos - baixo envolvimento do cliente - mudanças nos requisitos - requisitos incompletos.",
+                    "options": [
+                        {
+                            "key": "a",
+                            "text": "Falta de recursos tecnológicos e humanos - requisitos desnecessários - falta de suporte gerencial - especificação incompleta - mudança de requisitos."
+                        },
+                        {
+                            "key": "b",
+                            "text": "Requisitos incompletos - expectativas não realistas - baixo envolvimento da gerência - falta de planejamento - falta de modelagem."
+                        },
+                        {
+                            "key": "c",
+                            "text": "Requisitos incompletos - baixo envolvimento do cliente - expectativas não realistas - mudanças nos requisitos - requisitos desnecessários."
+                        },
+                        {
+                            "key": "d",
+                            "text": "Falta de suporte gerencial - falta de recursos tecnológicos e humanos - baixo envolvimento do cliente - mudanças nos requisitos - requisitos incompletos."
+                        }
+                    ],
+                    "correct": "c",
+                    "explanation": "O CHAOS Report do Standish Group aponta consistentemente requisitos incompletos, baixo envolvimento do usuário/cliente, expectativas não realistas, mudanças de requisitos e requisitos desnecessários (gold-plating) como os principais fatores de falha relacionados a requisitos."
+                },
+                {
+                    "id": "s4q3",
+                    "type": "true_false_list",
+                    "prompt": "Existem diversas técnicas a serem aplicadas para o levantamento de requisitos, de modo que possam identificar claramente os problemas identificados pelos usuários. A respeito destas técnicas, assinale V para verdadeiro ou F para falso.",
+                    "items": [
+                        "Prototipagem: utilizada para promover cooperação, entendimento e trabalho em grupo entre usuários e desenvolvedores.",
+                        "Entrevista: conversa com o usuário para extrair tópicos importantes.",
+                        "Brainstorming: é ideal para buscar ideias de novos produtos em ambiente descontraído e informal.",
+                        "Observação: utilizada para atrair aspectos críticos quando se tem domínio mínimo da aplicação.",
+                        "Caso de Uso: descreve um conjunto de sequências de ações realizadas pelo sistema para produzir um resultado de valor, através de uma interação típica entre ator e sistema."
+                    ],
+                    "correct": [
+                        "F",
+                        "V",
+                        "V",
+                        "F",
+                        "V"
+                    ],
+                    "explanation": "A descrição do item 1 ('promover cooperação e trabalho em grupo') é mais própria de técnicas como JAD/Brainstorming, não da Prototipagem (cujo foco é validar um modelo executável com o cliente) — por isso F. O item 4 (Observação) também é considerado F nesta associação, pois a descrição dada se encaixa melhor em outra técnica. Entrevista, Brainstorming e Caso de Uso estão corretamente descritos (V)."
+                },
+                {
+                    "id": "s4q4",
+                    "type": "discursive",
+                    "prompt": "Quais atividades-padrão os modelos CMMI e MPS.Br recomendam para gerenciar requisitos de software?",
+                    "model_answer": "Ambos os modelos recomendam, essencialmente: obter entendimento dos requisitos junto aos fornecedores de requisitos (clientes/usuários); obter comprometimento da equipe técnica com os requisitos; gerenciar mudanças nos requisitos ao longo do projeto; manter rastreabilidade bidirecional entre requisitos e produtos de trabalho (design, código, testes); e identificar inconsistências entre requisitos, planos e produtos de trabalho do projeto, corrigindo-as quando necessário."
+                },
+                {
+                    "id": "s4q5",
+                    "type": "discursive",
+                    "prompt": "Descreva quais são as ações necessárias para gerenciar mudanças de requisitos de software.",
+                    "model_answer": "É preciso: estabelecer uma baseline (linha de base) formal dos requisitos aprovados; definir um processo/comitê de controle de mudanças para avaliar cada solicitação (impacto em prazo, custo, escopo e qualidade); registrar e documentar formalmente cada mudança solicitada; analisar os impactos da mudança nos demais artefatos (design, código, testes, cronograma); aprovar ou rejeitar a mudança de forma controlada; atualizar a matriz de rastreabilidade e todos os artefatos afetados; e comunicar a mudança a todos os envolvidos no projeto."
+                },
+                {
+                    "id": "s4q6",
+                    "type": "discursive",
+                    "prompt": "Como funciona uma matriz de rastreabilidade?",
+                    "model_answer": "A matriz de rastreabilidade relaciona cada requisito aos demais artefatos do projeto que dele dependem ou que o implementam — por exemplo, casos de uso, componentes de design, trechos de código e casos de teste. Ela permite verificar, em ambas as direções, se todo requisito foi de fato implementado e testado (rastreabilidade direta) e de onde cada elemento do sistema se originou (rastreabilidade reversa). É essencial para avaliar o impacto de mudanças de requisitos e para garantir cobertura completa de testes."
+                }
+            ]
+        },
+        {
+            "title": "5. Gerenciamento de Projetos (PMBOK)",
+            "questions": [
+                {
+                    "id": "s5q1",
+                    "type": "multiple_choice",
+                    "prompt": "As organizações estão progressivamente empreendendo projetos que sejam um tanto incomuns ou únicos, tenham prazos finais específicos, contenham tarefas complexas interrelacionadas que exijam habilidades especializadas e sejam de caráter:",
+                    "options": [
+                        {
+                            "key": "a",
+                            "text": "rotineiro."
+                        },
+                        {
+                            "key": "b",
+                            "text": "contínuo."
+                        },
+                        {
+                            "key": "c",
+                            "text": "duráveis."
+                        },
+                        {
+                            "key": "d",
+                            "text": "temporário."
+                        },
+                        {
+                            "key": "e",
+                            "text": "operacional."
+                        }
+                    ],
+                    "correct": "d",
+                    "explanation": "Por definição do PMBOK, todo projeto é temporário: tem início e fim bem definidos."
+                },
+                {
+                    "id": "s5q2",
+                    "type": "multiple_choice",
+                    "prompt": "Qual dos fatores a seguir não está incluído na “Restrição Tripla”?",
+                    "options": [
+                        {
+                            "key": "a",
+                            "text": "Escopo."
+                        },
+                        {
+                            "key": "b",
+                            "text": "Tempo."
+                        },
+                        {
+                            "key": "c",
+                            "text": "Custo."
+                        },
+                        {
+                            "key": "d",
+                            "text": "Aparência."
+                        },
+                        {
+                            "key": "e",
+                            "text": "Qualidade."
+                        }
+                    ],
+                    "correct": "d",
+                    "explanation": "A Restrição Tripla clássica envolve Escopo, Tempo e Custo (com Qualidade como fator central afetado pelos três). 'Aparência' não é uma dessas restrições."
+                },
+                {
+                    "id": "s5q3",
+                    "type": "multiple_choice",
+                    "prompt": "De acordo com o Guia PMBOK, os processos necessários para assegurar que o projeto inclua todo o trabalho necessário, e apenas o necessário, para que o projeto termine com êxito pertencem à seguinte área de conhecimento:",
+                    "options": [
+                        {
+                            "key": "a",
+                            "text": "Gerenciamento do Escopo do Projeto."
+                        },
+                        {
+                            "key": "b",
+                            "text": "Gerenciamento do Tempo do Projeto."
+                        },
+                        {
+                            "key": "c",
+                            "text": "Gerenciamento dos Custos do Projeto."
+                        },
+                        {
+                            "key": "d",
+                            "text": "Gerenciamento das Comunicações do Projeto."
+                        },
+                        {
+                            "key": "e",
+                            "text": "Gerenciamento dos Recursos Humanos do Projeto."
+                        }
+                    ],
+                    "correct": "a",
+                    "explanation": "Essa é exatamente a definição da área de Gerenciamento do Escopo do PMBOK."
+                },
+                {
+                    "id": "s5q4",
+                    "type": "multiple_choice",
+                    "prompt": "Pressman (2011) define que o gerenciamento de projeto no desenvolvimento de software tem um foco nos 4 Ps, os quais iremos abordar a seguir. I. Pessoal II. Produto III. Processo IV. Projeto\n( ) São planejados e controlados minuciosamente, pois esta é a maneira de administrar sua complexidade e garantir qualidade.\n( ) Antes mesmo de começar o projeto, deve-se estabelecer os objetivos do produto e considerar as soluções.\n( ) Este recurso foca na formação da equipe, comunicação, ambiente de trabalho, desenvolvimento de carreira, análise da competência e cultura de equipe.\n( ) Fornece a metodologia por meio da qual um plano de projeto abrangente para o desenvolvimento de software pode ser estabelecido.\n\nDe acordo com as sentenças acima, associe a sequência correta das definições dadas para cada um dos 4 Ps:",
+                    "options": [
+                        {
+                            "key": "a",
+                            "text": "I – II – III – IV."
+                        },
+                        {
+                            "key": "b",
+                            "text": "IV – II – I – III."
+                        },
+                        {
+                            "key": "c",
+                            "text": "IV – I – II – III."
+                        },
+                        {
+                            "key": "d",
+                            "text": "II – I – IV – III."
+                        }
+                    ],
+                    "correct": "b",
+                    "explanation": "Planejados/controlados minuciosamente = Projeto (IV); objetivos do produto antes de iniciar = Produto (II); formação de equipe, comunicação, cultura = Pessoal (I); metodologia para plano abrangente = Processo (III). Sequência: IV – II – I – III."
+                },
+                {
+                    "id": "s5q5",
+                    "type": "true_false_list",
+                    "prompt": "Os projetos podem ser compostos por três tipos de categorias: subprojetos, programas e portfólio. Segundo suas características, assinale abaixo com V para verdadeiro ou F para falso:",
+                    "items": [
+                        "Projetos grandes e complexos podem ser divididos em subprojetos menores.",
+                        "Portfólio é um grupo de projetos relacionados, gerenciados coletivamente de forma coordenada.",
+                        "Programa é composto por um conjunto de projetos ou subprojetos com objetivos comuns.",
+                        "Programas podem não ser necessariamente interdependentes ou diretamente relacionados.",
+                        "Um projeto pode ou não fazer parte de um programa, mas um programa sempre terá projetos."
+                    ],
+                    "correct": [
+                        "V",
+                        "F",
+                        "V",
+                        "F",
+                        "V"
+                    ],
+                    "explanation": "O item 2 descreve, na verdade, PROGRAMA (grupo de projetos relacionados, gerenciados de forma coordenada) — Portfólio reúne projetos/programas não necessariamente relacionados, focados em objetivos estratégicos, por isso é F. Pelo mesmo motivo, o item 4 ('não necessariamente relacionados') descreve Portfólio, não Programa, e por isso também é F nessa associação."
+                },
+                {
+                    "id": "s5q6",
+                    "type": "multiple_choice",
+                    "prompt": "O PMBOK (2015) classifica as organizações em diferentes estruturas de acordo com o grau de aderência às práticas sugeridas para a gerência de projetos, conforme listados abaixo: I. Funcional II. Matricial III. Projetizada\n( ) Somente o Gerente de Projetos toma as decisões referentes ao projeto, realiza os controles sobre os recursos e o orçamento do projeto.\n( ) As organizações ficam entre os dois extremos, dividindo-se em matriz fraca, balanceada ou forte.\n( ) Onde praticamente todas as decisões de gerenciamento de projetos são tomadas com auxílio dos gerentes de departamento.\n\nDe acordo com as sentenças acima, associe a sequência correta das definições apresentadas:",
+                    "options": [
+                        {
+                            "key": "a",
+                            "text": "I – II – III."
+                        },
+                        {
+                            "key": "b",
+                            "text": "III – II – I."
+                        },
+                        {
+                            "key": "c",
+                            "text": "III – I – II."
+                        },
+                        {
+                            "key": "d",
+                            "text": "II – I – III."
+                        }
+                    ],
+                    "correct": "b",
+                    "explanation": "Somente o gerente de projetos decide, controla recursos e orçamento = Projetizada (III); organizações entre dois extremos (matriz fraca/balanceada/forte) = Matricial (II); decisões tomadas com auxílio dos gerentes de departamento = Funcional (I). Sequência: III – II – I."
+                },
+                {
+                    "id": "s5q7",
+                    "type": "multiple_choice",
+                    "prompt": "Sobre gerenciamento de riscos de software, assinale a alternativa CORRETA:",
+                    "options": [
+                        {
+                            "key": "a",
+                            "text": "Não envolve os riscos ambientais que possam afetar o projeto."
+                        },
+                        {
+                            "key": "b",
+                            "text": "O controle de riscos é feito pelos planos de casos de uso."
+                        },
+                        {
+                            "key": "c",
+                            "text": "O controle de riscos é realizado por membros externos ao projeto."
+                        },
+                        {
+                            "key": "d",
+                            "text": "Consiste em avaliar e controlar os riscos que afetam o projeto, processo ou produto de software."
+                        },
+                        {
+                            "key": "e",
+                            "text": "Consiste apenas no gerenciamento dos testes de software."
+                        }
+                    ],
+                    "correct": "d",
+                    "explanation": "Gerenciamento de riscos é, por definição, o processo de identificar, avaliar e controlar riscos que possam afetar projeto, processo ou produto."
+                },
+                {
+                    "id": "s5q8",
+                    "type": "discursive",
+                    "prompt": "Quais são as áreas de conhecimento definidas pela 5ª edição do guia PMBOK para o gerenciamento dos projetos?",
+                    "model_answer": "São dez áreas: (1) Gerenciamento da Integração, (2) Gerenciamento do Escopo, (3) Gerenciamento do Tempo (Cronograma), (4) Gerenciamento dos Custos, (5) Gerenciamento da Qualidade, (6) Gerenciamento dos Recursos Humanos, (7) Gerenciamento das Comunicações, (8) Gerenciamento dos Riscos, (9) Gerenciamento das Aquisições e (10) Gerenciamento das Partes Interessadas (Stakeholders)."
+                },
+                {
+                    "id": "s5q9",
+                    "type": "multiple_choice",
+                    "prompt": "Dadas as definições sobre as principais áreas de gerenciamento de projeto (5ª edição do guia PMBOK), associe os itens com suas respectivas áreas: I. Descreve os processos necessários para garantir que a conclusão do projeto ocorra dentro do prazo previsto. II. Descreve os processos para garantir que o projeto vai atender às necessidades e expectativas do patrocinador ou usuário final. III.Descreve os passos requeridos para garantir o adequado uso, repasse, armazenamento e disseminação das informações do projeto. IV.Descreve os processos relacionados na identificação, análise e respostas aos possíveis riscos que envolvem o projeto. A ordem correta das áreas de conhecimento no gerenciamento definidas acima é:",
+                    "options": [
+                        {
+                            "key": "a",
+                            "text": "Gerenciamento de tempo; Gerenciamento da qualidade; Gerenciamento das comunicações; Gerenciamento de riscos."
+                        },
+                        {
+                            "key": "b",
+                            "text": "Gerenciamento da qualidade; Gerenciamento de riscos; Gerenciamento da integração; Gerenciamento de escopo."
+                        },
+                        {
+                            "key": "c",
+                            "text": "Gerenciamento de escopo; Gerenciamento da qualidade; Gerenciamento de RH; Gerenciamento de aquisição."
+                        },
+                        {
+                            "key": "d",
+                            "text": "Gerenciamento de tempo; Gerenciamento de riscos; Gerenciamento de custos; Gerenciamento das partes interessadas."
+                        }
+                    ],
+                    "correct": "a",
+                    "explanation": "Prazo previsto = Tempo (I); atender necessidades/expectativas do usuário final = Qualidade (II); uso/armazenamento/disseminação de informações = Comunicações (III); identificação/análise/resposta a riscos = Riscos (IV)."
+                },
+                {
+                    "id": "s5q10",
+                    "type": "multiple_choice",
+                    "prompt": "Dadas as definições abaixo sobre as principais áreas de gerenciamento de projeto (5ª edição do guia PMBOK), associe os itens com suas respectivas áreas: I. Está relacionado com os limites do produto ou serviço que será construído com o projeto. II. Detalha o gerenciamento dos custos envolvidos no projeto, de forma que os valores estabelecidos no planejamento sejam respeitados, executando-o dentro do orçamento estimado. III. Descreve os processos requeridos para otimizar as competências e habilidades em termos de alocação e realocação das pessoas envolvidas no projeto. IV. Descreve os processos necessários para garantir que a conclusão do projeto ocorra dentro do prazo previsto. A ordem correta das áreas de conhecimento no gerenciamento definidas acima é:",
+                    "options": [
+                        {
+                            "key": "a",
+                            "text": "Gerenciamento de qualidade; Gerenciamento de aquisição; Gerenciamento de comunicação; Gerenciamento de custos."
+                        },
+                        {
+                            "key": "b",
+                            "text": "Gerenciamento do escopo; Gerenciamento de tempo; Gerenciamento de comunicação; Gerenciamento de integração."
+                        },
+                        {
+                            "key": "c",
+                            "text": "Gerenciamento do requisito; Gerenciamento de aquisição; Gerenciamento de RH; Gerenciamento de custos."
+                        },
+                        {
+                            "key": "d",
+                            "text": "Gerenciamento do escopo; Gerenciamento de custos; Gerenciamento de RH; Gerenciamento de tempo."
+                        }
+                    ],
+                    "correct": "d",
+                    "explanation": "Limites do produto/serviço = Escopo (I); custos dentro do orçamento = Custos (II); alocação de pessoas = RH (III); conclusão dentro do prazo = Tempo (IV)."
+                },
+                {
+                    "id": "s5q11",
+                    "type": "true_false_list",
+                    "prompt": "Acerca das definições dadas sobre gestão de pessoas em projetos de software, assinale V para verdadeiro ou F para falso:",
+                    "items": [
+                        "O sucesso de um projeto depende exclusivamente dos processos e ferramentas adotadas, e não de quem desempenhará a função no projeto.",
+                        "Uma equipe integrada precisa de comunicação aberta, mas o nível de confiança entre os representantes é desnecessário para o sucesso do projeto.",
+                        "Para refletir os requisitos dos stakeholders no planejamento, execução e operação, a equipe deve ser multidisciplinar e representar todas as áreas de conhecimento necessárias.",
+                        "O gerenciamento da equipe é o processo de acompanhar o desempenho dos membros, resolver problemas, dar feedback e realizar mudanças para melhorar o desempenho.",
+                        "A gestão de projetos de software pode ser vista sob duas perspectivas — técnica e pessoal — com ênfase em atividades de planejamento e execução."
+                    ],
+                    "correct": [
+                        "F",
+                        "F",
+                        "V",
+                        "V",
+                        "V"
+                    ],
+                    "explanation": "As duas primeiras são falsas: o sucesso depende também das pessoas (não exclusivamente de processos/ferramentas), e a confiança entre os membros da equipe É necessária para o sucesso do projeto. As demais estão corretas."
+                }
+            ]
+        },
+        {
+            "title": "6. Estimativas e Métricas de Software",
+            "questions": [
+                {
+                    "id": "s6q1",
+                    "type": "true_false_list",
+                    "prompt": "Acerca do tema estimativas e métricas de projetos de software analise as sentenças abaixo e assinale com V para verdadeiro ou F para Falso:",
+                    "items": [
+                        "Estimar software significa determinar quanto de dinheiro, esforço, recursos e tempo serão necessários para criar um sistema.",
+                        "O esforço de um projeto de software não está relacionado à produtividade, que é medida pela qualidade do trabalho realizado pela equipe.",
+                        "Uma forma de estimar a produtividade é, por exemplo, a quantidade de linhas de código por pessoa-mês.",
+                        "Em muitas situações, para adequar o ritmo do desenvolvimento às estimativas, a qualidade é sacrificada, deixando as coisas ainda piores.",
+                        "A estimativa de tamanho de um projeto de software não tem impacto na solução técnica do projeto, pois sua duração é só no início do projeto."
+                    ],
+                    "correct": [
+                        "V",
+                        "F",
+                        "V",
+                        "V",
+                        "F"
+                    ],
+                    "explanation": "O item 2 é falso: esforço e produtividade estão diretamente relacionados (produtividade normalmente é medida por volume de trabalho por tempo/esforço, não apenas 'qualidade'). O item 5 é falso: a estimativa de tamanho impacta decisões técnicas ao longo de todo o projeto, não apenas no início."
+                },
+                {
+                    "id": "s6q2",
+                    "type": "discursive",
+                    "prompt": "Quais são os quatro processos utilizados para o gerenciamento de custos de projetos conforme definido pelo guia do PMBOK 5ª edição escrita pelo PMI?",
+                    "model_answer": "(1) Planejar o Gerenciamento dos Custos — define como os custos serão planejados, estruturados e controlados; (2) Estimar os Custos — desenvolve uma aproximação dos recursos monetários necessários; (3) Determinar o Orçamento — agrega os custos estimados para estabelecer uma linha de base de custos autorizada; (4) Controlar os Custos — monitora o andamento do projeto para atualizar o orçamento e gerenciar mudanças na linha de base de custos."
+                },
+                {
+                    "id": "s6q3",
+                    "type": "multiple_choice",
+                    "prompt": "O gerenciamento de custos de projetos é realizado através de três itens a saber: I. as Entradas. II. as Ferramentas e Técnicas. III. as Saídas.\n( ) Um padrão que formaliza os procedimentos a serem adotados para efetiva administração dos custos do projeto.\n( ) São produtos, como as estimativas de custos, recursos, cronogramas, tempo das atividades, previsões orçamentárias, entre outros\n( ) As informações ou dados obtidos referentes ao projeto, oriundos de fatores internos ou externos (pessoas, instalações, equipamentos, materiais etc.).\n\nDe acordo com as sentenças acima, associe a sequência correta das definições:",
+                    "options": [
+                        {
+                            "key": "a",
+                            "text": "I – II – III."
+                        },
+                        {
+                            "key": "b",
+                            "text": "II – III – I."
+                        },
+                        {
+                            "key": "c",
+                            "text": "II – I – III."
+                        },
+                        {
+                            "key": "d",
+                            "text": "II – III – I."
+                        }
+                    ],
+                    "correct": "b",
+                    "explanation": "Um padrão/procedimento adotado (metodologia) = Ferramentas e Técnicas (II); produtos gerados (estimativas, cronogramas, orçamentos) = Saídas (III); dados/informações obtidas sobre o projeto = Entradas (I). Sequência: II – III – I."
+                },
+                {
+                    "id": "s6q4",
+                    "type": "discursive",
+                    "prompt": "Defina o que é métrica de software.",
+                    "model_answer": "Métrica de software é uma medida quantitativa do grau em que um sistema, componente ou processo de software possui um determinado atributo (ex.: tamanho, complexidade, produtividade, qualidade, esforço). Métricas permitem quantificar características do produto e do processo de desenvolvimento, servindo de base objetiva para estimativas, planejamento, controle e melhoria contínua do processo de software."
+                },
+                {
+                    "id": "s6q5",
+                    "type": "multiple_choice",
+                    "prompt": "Seguem os principais métodos que podem ser utilizados para se estimar o desenvolvimento e a vida útil de um sistema: I. Linhas de Código (LOC); II. Pontos de História; III. Análise de Pontos de Função; IV. Análise de Pontos de Caso de Uso; V. COCOMO II; VI. Estimativa para projetos Orientados a Objeto.\n( ) Convém de métodos de estimativa de custo de software com uso de técnica criada explicitamente para software orientado a objeto.\n( ) É possível quantificar as funções de um sistema considerando aspectos significantes para o usuário, portanto, irá considerar os requisitos de negócio que o sistema atende e principalmente que sua contagem é independente de tecnologia\n( ) Métrica de estimativa de tempo, onde é a estimativa de esforço preferida de métodos ágeis como Scrum e XP, relativa à equipe de desenvolvimento.\n( ) É um modelo relativamente mais simples, baseia na análise da qualidade e complexidade dos atores e casos de uso.\n( ) Foi possivelmente a primeira a surgir e consiste em estimar o número de linhas que um programa deverá ter, normalmente a partir da opinião de especialistas e histórico de projetos passados.\n( ) Como todos os modelos de estimativas para software, requerem informações de tamanho em três diferentes opções como parte da hierarquia de modelo: pontosv de objeto, pontos de função e linhas de código-fonte.\n\nDe acordo com as sentenças acima, associe a sequência correta das definições de cada um dos tipos de métricas de software:",
+                    "options": [
+                        {
+                            "key": "a",
+                            "text": "VI – II – III – I – IV – V."
+                        },
+                        {
+                            "key": "b",
+                            "text": "I – III – V – IV – VI – II."
+                        },
+                        {
+                            "key": "c",
+                            "text": "VI – III – II – IV – I – V."
+                        },
+                        {
+                            "key": "d",
+                            "text": "V – II – III – IV – I – VI."
+                        }
+                    ],
+                    "correct": "c",
+                    "explanation": "Técnica criada para SW orientado a objeto = VI; quantifica funções sob a ótica do usuário, independente de tecnologia = Pontos de Função (III); métrica ágil de esforço preferida do Scrum/XP = Pontos de História (II); baseado na complexidade de atores/casos de uso = Pontos de Caso de Uso (IV); estimativa de número de linhas = LOC (I); modelo hierárquico com pontos de objeto/função/LOC = COCOMO II (V). Sequência: VI – III – II – IV – I – V."
+                }
+            ]
+        },
+        {
+            "title": "7. Gerência de Configuração de Software",
+            "questions": [
+                {
+                    "id": "s7q1",
+                    "type": "multiple_choice",
+                    "prompt": "No processo de desenvolvimento de software, o gerenciamento da configuração de software envolve identificar a sua configuração:",
+                    "options": [
+                        {
+                            "key": "a",
+                            "text": "antes do início do ciclo de vida."
+                        },
+                        {
+                            "key": "b",
+                            "text": "apenas no início do ciclo de vida."
+                        },
+                        {
+                            "key": "c",
+                            "text": "somente ao final do ciclo de vida."
+                        },
+                        {
+                            "key": "d",
+                            "text": "apenas uma vez antes de encerrar o ciclo de vida."
+                        },
+                        {
+                            "key": "e",
+                            "text": "em pontos predefinidos no tempo durante o ciclo de vida."
+                        }
+                    ],
+                    "correct": "e",
+                    "explanation": "A gerência de configuração identifica e controla a configuração ao longo de todo o ciclo de vida, em marcos (baselines) predefinidos."
+                },
+                {
+                    "id": "s7q2",
+                    "type": "multiple_choice",
+                    "prompt": "Um software de gerência de configuração deve ser capaz de:",
+                    "options": [
+                        {
+                            "key": "a",
+                            "text": "configurar o software de acordo com as preferências do usuário."
+                        },
+                        {
+                            "key": "b",
+                            "text": "gerenciar quais usuários podem acessar certas funções do software."
+                        },
+                        {
+                            "key": "c",
+                            "text": "atualizar automaticamente as versões instaladas nas máquinas clientes."
+                        },
+                        {
+                            "key": "d",
+                            "text": "gerenciar a evolução do software durante seu processo de desenvolvimento."
+                        },
+                        {
+                            "key": "e",
+                            "text": "configurar automaticamente a instalação conforme o SO do servidor."
+                        }
+                    ],
+                    "correct": "d",
+                    "explanation": "A função central de um sistema de gerência de configuração é controlar e gerenciar a evolução dos artefatos de software ao longo do desenvolvimento."
+                },
+                {
+                    "id": "s7q3",
+                    "type": "multiple_choice",
+                    "prompt": "No que diz respeito à área da engenharia de software, analise a citação a seguir. “Conjunto de atividades projetadas para controlar as mudanças pela identificação dos produtos do trabalho que serão alterados, estabelecendo um relacionamento entre eles, definindo o mecanismo para o gerenciamento de diferentes versões destes produtos, controlando as mudanças impostas, e auditando e relatando as mudanças realizadas.” Essa citação apresenta o conceito de:",
+                    "options": [
+                        {
+                            "key": "a",
+                            "text": "Auditoria de Configuração."
+                        },
+                        {
+                            "key": "b",
+                            "text": "Gestão de Configuração."
+                        },
+                        {
+                            "key": "c",
+                            "text": "Gerência de Mudanças."
+                        },
+                        {
+                            "key": "d",
+                            "text": "Controle de Versão."
+                        },
+                        {
+                            "key": "e",
+                            "text": "Versões de Projeto."
+                        }
+                    ],
+                    "correct": "b",
+                    "explanation": "Essa é a definição clássica (Pressman) de Gestão/Gerência de Configuração de Software (SCM)."
+                },
+                {
+                    "id": "s7q4",
+                    "type": "multiple_choice",
+                    "prompt": "No processo de gerenciamento de configuração de software, um conjunto de itens de configuração que deve ser controlado, formalmente designado e fixado num tempo específico do ciclo de vida do software, é denominado.",
+                    "options": [
+                        {
+                            "key": "a",
+                            "text": "configuração de software."
+                        },
+                        {
+                            "key": "b",
+                            "text": "relações de itens."
+                        },
+                        {
+                            "key": "c",
+                            "text": "aquisição de itens."
+                        },
+                        {
+                            "key": "d",
+                            "text": "baseline."
+                        },
+                        {
+                            "key": "e",
+                            "text": "versão."
+                        }
+                    ],
+                    "correct": "d",
+                    "explanation": "Esse é exatamente o conceito de baseline (linha de base) em gerência de configuração."
+                },
+                {
+                    "id": "s7q5",
+                    "type": "multiple_choice",
+                    "prompt": "Gerência de Configuração de Software é um conjunto de atividades de apoio, que permite a absorção controlada das mudanças, inerentes ao desenvolvimento de software, mantendo estabilidade na evolução do projeto. Podemos dividir o Gerenciamento de Configuração de Software em três níveis: Tomando por base o quadro anterior, assinale a alternativa que define, corretamente, cada nível do Gerenciamento de Configuração de Software.",
+                    "options": [
+                        {
+                            "key": "a",
+                            "text": "Controle de versão: identifica em qual versão está o software e as características de cada versão. Controle de mudanças: identifica quais mudanças foram efetuadas na versão. Integração contínua: testa as mudanças assim que realizadas."
+                        },
+                        {
+                            "key": "b",
+                            "text": "Controle de versão: identifica em qual versão está o software. Controle de mudanças: testa as mudanças assim que realizadas. Integração contínua: identifica as mudanças efetuadas."
+                        },
+                        {
+                            "key": "c",
+                            "text": "Controle de versão: identifica quais foram as mudanças efetuadas. Controle de mudanças: testa as mudanças assim que realizadas. Integração contínua: identifica a versão do software."
+                        },
+                        {
+                            "key": "d",
+                            "text": "Controle de versão: identifica os usuários dos sistemas. Controle de mudanças: testa as mudanças assim que realizadas. Integração contínua: identifica a versão do software."
+                        },
+                        {
+                            "key": "e",
+                            "text": "Controle de versão: identifica os usuários. Controle de mudanças: testa as mudanças. Integração contínua: identifica as aplicações do software."
+                        }
+                    ],
+                    "correct": "a",
+                    "explanation": "Controle de versão = qual versão/características; Controle de mudanças = quais mudanças foram feitas; Integração contínua = testar mudanças assim que realizadas."
+                },
+                {
+                    "id": "s7q6",
+                    "type": "multiple_choice",
+                    "prompt": "Sistemas de controles de versões são ferramentas essenciais na gestão de tecnologia da informação de empresas, em especial em empresas desenvolvedoras de software. Estes sistemas têm o intuito de:",
+                    "options": [
+                        {
+                            "key": "a",
+                            "text": "Alocar recursos específicos para diferentes versões do sistema."
+                        },
+                        {
+                            "key": "b",
+                            "text": "Calcular as funcionalidades do sistema, incluindo pontos de função."
+                        },
+                        {
+                            "key": "c",
+                            "text": "Identificar uma alteração específica efetuada em um código-fonte."
+                        },
+                        {
+                            "key": "d",
+                            "text": "Controlar as versões de softwares adquiridos pela empresa."
+                        },
+                        {
+                            "key": "e",
+                            "text": "Estimar custo e tempo de desenvolvimento de uma versão específica."
+                        }
+                    ],
+                    "correct": "c",
+                    "explanation": "O propósito central de um VCS (Git, SVN etc.) é rastrear e identificar alterações específicas no código-fonte ao longo do tempo."
+                }
+            ]
+        },
+        {
+            "title": "8. Qualidade de Software",
+            "questions": [
+                {
+                    "id": "s8q1",
+                    "type": "multiple_choice",
+                    "prompt": "Um dos fundamentos atuais da qualidade é:",
+                    "options": [
+                        {
+                            "key": "a",
+                            "text": "estar em conformidade com as expectativas do cliente."
+                        },
+                        {
+                            "key": "b",
+                            "text": "possuir competências específicas de gestão."
+                        },
+                        {
+                            "key": "c",
+                            "text": "definir o padrão do produto a partir da perspectiva do gerente de qualidade."
+                        },
+                        {
+                            "key": "d",
+                            "text": "buscar a maximização dos lucros como foco prioritário."
+                        }
+                    ],
+                    "correct": "a",
+                    "explanation": "A visão moderna de qualidade é centrada no cliente: qualidade é conformidade com suas expectativas e necessidades."
+                },
+                {
+                    "id": "s8q2",
+                    "type": "multiple_choice",
+                    "prompt": "Apesar de todas as afirmativas abaixo definirem corretamente o que é “Qualidade de Software”, qual resposta corresponde à definição dada por Roger Pressman, um dos gurus da Engenharia de Software?",
+                    "options": [
+                        {
+                            "key": "a",
+                            "text": "Significa atendimento aos requisitos; qualidade vem por prevenção; padrão de 'defeitos zero'; medida de qualidade é o preço da não conformidade."
+                        },
+                        {
+                            "key": "b",
+                            "text": "Conformidade a requisitos funcionais e de desempenho explicitamente declarados, a padrões de desenvolvimento documentados e a características implícitas esperadas de todo software profissional."
+                        },
+                        {
+                            "key": "c",
+                            "text": "Processo sistemático que focaliza etapas e artefatos, garantindo conformidade de processos e produtos, prevenindo e eliminando defeitos."
+                        },
+                        {
+                            "key": "d",
+                            "text": "Princípio de prevenir defeitos, corrigir rapidamente os encontrados, eliminar causas e sintomas, e auditar conforme padrões."
+                        }
+                    ],
+                    "correct": "b",
+                    "explanation": "Essa é literalmente a definição de qualidade de software de Roger Pressman."
+                },
+                {
+                    "id": "s8q3",
+                    "type": "multiple_choice",
+                    "prompt": "Ciclo PDCA inclui as seguintes etapas sequenciais: a)( ) Diagnóstico; definição de metas; monitoramento; avaliação. b)( ) Planejamento; execução; controle/verificação; ação avaliativa/corretiva. c)\n( ) Priorização; definição de objetivos, capacitação; ação avaliativa/corretiva. d)( ) Planejamento; desenvolvimento; capacitação; avaliação.",
+                    "options": [
+                        {
+                            "key": "a",
+                            "text": "Diagnóstico; definição de metas; monitoramento; avaliação."
+                        },
+                        {
+                            "key": "b",
+                            "text": "Planejamento; execução; controle/verificação; ação avaliativa/corretiva."
+                        },
+                        {
+                            "key": "c",
+                            "text": "Priorização; definição de objetivos; capacitação; ação avaliativa/corretiva."
+                        },
+                        {
+                            "key": "d",
+                            "text": "Planejamento; desenvolvimento; capacitação; avaliação."
+                        }
+                    ],
+                    "correct": "b",
+                    "explanation": "PDCA = Plan, Do, Check, Act → Planejamento, Execução, Verificação/Controle, Ação corretiva."
+                },
+                {
+                    "id": "s8q4",
+                    "type": "true_false_list",
+                    "prompt": "Para produzir um produto de software com qualidade deve-se possuir processos formais que visem à prevenção e detecção de defeitos durante o desenvolvimento de software. A respeito dos exemplos destas duas técnicas, assinale V para verdadeiro ou F para falso:",
+                    "items": [
+                        "Prevenção de defeitos se dá pelo uso de instruções de procedimentos (padrões formais), treinamentos, documentação, modelagem e reengenharia.",
+                        "Prevenção de defeitos se dá pela análise de código, revisão por pares, testes, auditorias, verificações e validações.",
+                        "Detecção de defeitos se dá pela análise de código, revisão por pares, testes, auditorias, verificações e validações.",
+                        "Detecção de defeitos se dá pelo uso de instruções de procedimentos (padrões formais), treinamentos, documentação, modelagem e reengenharia."
+                    ],
+                    "correct": [
+                        "V",
+                        "F",
+                        "V",
+                        "F"
+                    ],
+                    "explanation": "Os itens 2 e 4 estão trocados: análise de código/revisão/teste/auditoria são técnicas de DETECÇÃO (item 3, correto), não de prevenção (item 2, falso); e padrões/treinamento/documentação/modelagem são técnicas de PREVENÇÃO (item 1, correto), não de detecção (item 4, falso)."
+                },
+                {
+                    "id": "s8q5",
+                    "type": "true_false_list",
+                    "prompt": "Na gestão da qualidade de software existem diversas atividades voltadas à garantia da qualidade e ao controle de qualidade de software. A respeito das suas definições assinale V para verdadeiro ou F para falso:",
+                    "items": [
+                        "A garantia da qualidade é a definição padronizada das atividades voltadas à prevenção de defeitos e problemas.",
+                        "A garantia da qualidade define padrões, metodologias, técnicas e ferramentas de apoio ao desenvolvimento, tendo como entrada o plano de qualidade e os resultados de medições.",
+                        "O controle de qualidade é voltado ao monitoramento de resultados específicos do projeto (detecção de defeitos), usando revisões por pares, testes e análise de tendências.",
+                        "O controle de qualidade define padrões, metodologias, técnicas e ferramentas de apoio ao desenvolvimento, tendo como entrada o plano de qualidade e os resultados de medições."
+                    ],
+                    "correct": [
+                        "V",
+                        "V",
+                        "V",
+                        "F"
+                    ],
+                    "explanation": "O item 4 descreve, na verdade, a Garantia da Qualidade (já descrita corretamente no item 2), não o Controle de Qualidade — por isso é Falso nessa associação."
+                },
+                {
+                    "id": "s8q6",
+                    "type": "multiple_choice",
+                    "prompt": "A respeito da Norma ISO/IEC 9000 qual é a resposta correta:",
+                    "options": [
+                        {
+                            "key": "a",
+                            "text": "É um conjunto de normas que só pode ser utilizado por empresas grandes de caráter industrial."
+                        },
+                        {
+                            "key": "b",
+                            "text": "É um pacote de softwares orientado para implantação de sistemas de qualidade em empresas do setor de informática."
+                        },
+                        {
+                            "key": "c",
+                            "text": "Confere qualidade a um produto (ou serviço), garantindo que ele apresentará sempre as mesmas características."
+                        },
+                        {
+                            "key": "d",
+                            "text": "Diz respeito apenas ao sistema de gestão da qualidade, e não às especificações dos produtos fabricados."
+                        }
+                    ],
+                    "correct": "c",
+                    "explanation": "A ISO 9000 trata de padronização e consistência: garantir que o produto/serviço mantenha as mesmas características de qualidade."
+                },
+                {
+                    "id": "s8q7",
+                    "type": "multiple_choice",
+                    "prompt": "A norma NBR ISO/IEC 12207 estabelece:",
+                    "options": [
+                        {
+                            "key": "a",
+                            "text": "Os processos fundamentais, organizacionais e de apoio do ciclo de vida de software."
+                        },
+                        {
+                            "key": "b",
+                            "text": "As atividades de TI agrupadas em processos e esses em domínios."
+                        },
+                        {
+                            "key": "c",
+                            "text": "Os estágios do ciclo de vida dos serviços de TI."
+                        },
+                        {
+                            "key": "d",
+                            "text": "Um modelo de áreas de processos representadas por categoria e estágios."
+                        }
+                    ],
+                    "correct": "a",
+                    "explanation": "A ISO/IEC 12207 é a norma internacional sobre processos de ciclo de vida de software."
+                },
+                {
+                    "id": "s8q8",
+                    "type": "multiple_choice",
+                    "prompt": "De acordo com a norma ISO/IEC 9126, a qualidade do produto software está relacionada às seguintes características: Funcionalidade, Confiabilidade, Usabilidade, Eficiência, Manutenibilidade e Portabilidade. Sobre o tema, assinale a afirmação correta.",
+                    "options": [
+                        {
+                            "key": "a",
+                            "text": "A Manutenibilidade diz que o produto deve manter seu nível de desempenho ao longo do tempo."
+                        },
+                        {
+                            "key": "b",
+                            "text": "A Confiabilidade está relacionada ao esforço necessário para usar o sistema."
+                        },
+                        {
+                            "key": "c",
+                            "text": "A Usabilidade refere-se à compatibilidade dos recursos e tempos com o desempenho requerido."
+                        },
+                        {
+                            "key": "d",
+                            "text": "A Funcionalidade refere-se à existência de funções e propriedades específicas do produto que satisfazem as necessidades do usuário."
+                        }
+                    ],
+                    "correct": "d",
+                    "explanation": "Funcionalidade (ISO 9126) é exatamente a capacidade do software de prover funções que atendam às necessidades declaradas e implícitas do usuário."
+                },
+                {
+                    "id": "s8q9",
+                    "type": "multiple_choice",
+                    "prompt": "Em relação às normas da família ISO 27000, correlacione as colunas a seguir considerando a descrição que melhor define cada norma:",
+                    "options": [
+                        {
+                            "key": "a",
+                            "text": "IV, III, II, I."
+                        },
+                        {
+                            "key": "b",
+                            "text": "I, III, IV, II."
+                        },
+                        {
+                            "key": "c",
+                            "text": "III, IV, II, I."
+                        },
+                        {
+                            "key": "d",
+                            "text": "IV, I, II, III."
+                        }
+                    ],
+                    "correct": "a",
+                    "explanation": "Na realidade: ISO 27001 = especificação/requisitos para SGSI (descrição IV da tabela); ISO 27002 = boas práticas/código de prática (descrição III); ISO 27003 = guia de implementação (descrição II); ISO 27004 = métricas/medição (descrição I). Logo a sequência correta para 27001-27002-27003-27004 é IV, III, II, I."
+                },
+                {
+                    "id": "s8q10",
+                    "type": "multiple_choice",
+                    "prompt": "Os Níveis de Maturidade de 1 a 5 do CMMI são:",
+                    "options": [
+                        {
+                            "key": "a",
+                            "text": "Inicial, Projetado, Definido, Gerenciado Qualitativamente e Otimização."
+                        },
+                        {
+                            "key": "b",
+                            "text": "Inicial, Gerenciado, Dirigido, Verificado Quantitativamente e Maximizado."
+                        },
+                        {
+                            "key": "c",
+                            "text": "Inicial, Repetível, Definido, Gerenciado Quantitativamente e Otimização."
+                        },
+                        {
+                            "key": "d",
+                            "text": "Inicial, Repetível, Gerenciado, Revisto, Otimizado e Quantificado."
+                        }
+                    ],
+                    "correct": "c",
+                    "explanation": "Os 5 níveis clássicos do CMMI são: 1-Inicial, 2-Repetível (Gerenciado), 3-Definido, 4-Gerenciado Quantitativamente, 5-Em Otimização."
+                },
+                {
+                    "id": "s8q11",
+                    "type": "multiple_choice",
+                    "prompt": "O MPS.BR consiste simultaneamente em um movimento para a Melhoria de Processo do Software Brasileiro (programa MPS.BR) e um modelo de qualidade de processo (modelo MPS) direcionado para pequenas e médias empresas de desenvolvimento de software no Brasil. Sobre o MPS.BR, sabe-se também que ele:",
+                    "options": [
+                        {
+                            "key": "a",
+                            "text": "Carece de um método de avaliação para melhoria de processo de software."
+                        },
+                        {
+                            "key": "b",
+                            "text": "Possui incompatibilidade com o modelo de referência CMMI."
+                        },
+                        {
+                            "key": "c",
+                            "text": "Tem alto custo de certificação em relação às normas estrangeiras."
+                        },
+                        {
+                            "key": "d",
+                            "text": "Apresenta sete níveis de maturidade (do nível A ao G), cada qual com suas áreas de processo (fundamentais, organizacionais e de apoio)."
+                        }
+                    ],
+                    "correct": "d",
+                    "explanation": "O MPS.BR define sete níveis de maturidade, de G (mais baixo) até A (mais alto), sendo compatível com o CMMI e tendo custo reduzido em relação a normas internacionais — a alternativa correta descreve os sete níveis de A a G com suas áreas de processo."
+                }
+            ]
+        },
+        {
+            "title": "9. Metodologias Ágeis",
+            "questions": [
+                {
+                    "id": "s9q1",
+                    "type": "true_false_list",
+                    "prompt": "As Metodologias Ágeis de Desenvolvimento de Software são indicadas como sendo uma opção às abordagens tradicionais para desenvolver softwares. Analise abaixo sua definição e assinale com V para verdadeiro ou F para falso:",
+                    "items": [
+                        "Produzem pouca documentação; só é feito o que realmente será útil.",
+                        "A colaboração e participação dos clientes está acima das negociações e contratos.",
+                        "Não são recomendadas para projetos com muitas mudanças, equipe pequena e prazos curtos.",
+                        "Valorizam indivíduos e interações mais que processos e ferramentas."
+                    ],
+                    "correct": [
+                        "V",
+                        "V",
+                        "F",
+                        "V"
+                    ],
+                    "explanation": "O item 3 é falso: metodologias ágeis são justamente recomendadas para projetos com muitas mudanças, equipes pequenas e prazos curtos — é o cenário onde elas mais se destacam."
+                },
+                {
+                    "id": "s9q2",
+                    "type": "discursive",
+                    "prompt": "São princípios dos métodos ágeis:",
+                    "model_answer": "Os 12 princípios do Manifesto Ágil incluem, entre outros: satisfazer o cliente através de entrega contínua e adiantada de software com valor; aceitar mudanças de requisitos mesmo tardiamente no desenvolvimento; entregar software funcionando com frequência (semanas em vez de meses); manter cooperação diária entre pessoas de negócio e desenvolvedores; construir projetos em torno de indivíduos motivados, dando-lhes o suporte necessário; comunicação face a face como a forma mais eficiente; software funcionando como principal medida de progresso; processos ágeis promovem desenvolvimento sustentável; atenção contínua à excelência técnica e bom design; simplicidade (maximizar o trabalho não realizado); equipes auto-organizáveis geram as melhores arquiteturas e requisitos; e reflexão regular da equipe sobre como se tornar mais eficaz."
+                },
+                {
+                    "id": "s9q3",
+                    "type": "multiple_choice",
+                    "prompt": "São algumas das metodologias de desenvolvimento de software consideradas ágeis (Agile Software Process Models):",
+                    "options": [
+                        {
+                            "key": "a",
+                            "text": "RUP, XP e DSDM."
+                        },
+                        {
+                            "key": "b",
+                            "text": "Waterfall, RUP e FDD."
+                        },
+                        {
+                            "key": "c",
+                            "text": "XP, FDD e RUP."
+                        },
+                        {
+                            "key": "d",
+                            "text": "Scrum, XP e FDD."
+                        }
+                    ],
+                    "correct": "d",
+                    "explanation": "Scrum, XP (Extreme Programming) e FDD (Feature Driven Development) são metodologias ágeis clássicas. RUP e Waterfall não são consideradas ágeis."
+                },
+                {
+                    "id": "s9q4",
+                    "type": "true_false_list",
+                    "prompt": "A respeito dos princípios do Manifesto ágil, analise abaixo as sentenças e assinale com V para verdadeiro ou F para falso:",
+                    "items": [
+                        "Software em funcionamento é a principal medida de progresso.",
+                        "Mudanças de requisitos, mesmo no fim do desenvolvimento, ainda são bem-vindas.",
+                        "Desenvolvedores e pessoas relacionadas aos negócios devem trabalhar em conjunto até o fim do projeto.",
+                        "Garantia da satisfação do consumidor com entrega rápida e contínua de softwares funcionais.",
+                        "Em intervalos regulares, a equipe deve refletir sobre como se tornar mais eficiente."
+                    ],
+                    "correct": [
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V"
+                    ],
+                    "explanation": "Todas as cinco afirmações são princípios diretos do Manifesto Ágil (2001)."
+                },
+                {
+                    "id": "s9q5",
+                    "type": "multiple_choice",
+                    "prompt": "Sobre XP e SCRUM é INCORRETO afirmar:",
+                    "options": [
+                        {
+                            "key": "a",
+                            "text": "No XP, os testes são escritos antes do desenvolvimento e as funcionalidades só têm valor se testadas e obtiverem 'unanimidade de aprovação'."
+                        },
+                        {
+                            "key": "b",
+                            "text": "O Scrum divide o processo em Sprints, monitora o progresso com reuniões diárias e reúne-se com stakeholders ao fim de cada ciclo."
+                        },
+                        {
+                            "key": "c",
+                            "text": "No XP, não há indicação de documentação extensa no código; os documentos tradicionais são reduzidos aos aspectos mais relevantes."
+                        },
+                        {
+                            "key": "d",
+                            "text": "O Scrum não especifica programação em pares ou TDD, mas especifica a forma de gerenciamento dos requisitos/características solicitadas."
+                        }
+                    ],
+                    "correct": "a",
+                    "explanation": "A afirmação 'a' é a INCORRETA: no XP os testes realmente são escritos antes (TDD), mas o conceito de 'unanimidade de aprovação' não existe na metodologia — é uma distorção. As demais alternativas (b, c, d) descrevem corretamente XP e Scrum."
+                },
+                {
+                    "id": "s9q6",
+                    "type": "multiple_choice",
+                    "prompt": "A Feature Driven Development (FDD) é uma metodologia ágil de desenvolvimento de software, sobre a qual é correto afirmar:",
+                    "options": [
+                        {
+                            "key": "a",
+                            "text": "Não pode ser combinado a outras técnicas para produção de sistemas."
+                        },
+                        {
+                            "key": "b",
+                            "text": "Possui cinco processos: Desenvolver um Modelo Abrangente, Construir a Lista de Funcionalidades, Planejar por Funcionalidade, Detalhar por Funcionalidade e Implementar por Funcionalidade."
+                        },
+                        {
+                            "key": "c",
+                            "text": "Divide os papéis em dois grupos (chave e apoio), atribuídos a um único participante cada."
+                        },
+                        {
+                            "key": "d",
+                            "text": "Mantém seu foco apenas na fase de modelagem."
+                        }
+                    ],
+                    "correct": "b",
+                    "explanation": "Esses são exatamente os cinco processos clássicos do FDD."
+                },
+                {
+                    "id": "s9q7",
+                    "type": "multiple_choice",
+                    "prompt": "A respeito da metodologia Desenvolvimento Adaptativo de Software (ASD) quais são suas três fases:",
+                    "options": [
+                        {
+                            "key": "a",
+                            "text": "Especificação, Cooperação e Aprendizado."
+                        },
+                        {
+                            "key": "b",
+                            "text": "Especulação, Colaboração e Aprendizado."
+                        },
+                        {
+                            "key": "c",
+                            "text": "Especulação, Cooperação e Adaptação."
+                        },
+                        {
+                            "key": "d",
+                            "text": "Especificação, Colaboração e Aprendizado."
+                        }
+                    ],
+                    "correct": "b",
+                    "explanation": "As três fases do ASD (Jim Highsmith) são: Especulação (Speculate), Colaboração (Collaborate) e Aprendizado (Learn)."
+                },
+                {
+                    "id": "s9q8",
+                    "type": "true_false_list",
+                    "prompt": "O DSDM é uma metodologia incremental que enfatiza principalmente a participação do usuário final. A respeito dos seus princípios assinale as sentenças abaixo com V para verdadeiro ou F para falso:",
+                    "items": [
+                        "O envolvimento do usuário e a autonomia do time de desenvolvimento.",
+                        "O feedback só da equipe de desenvolvimento e a realização de testes apenas no escopo.",
+                        "A reversibilidade do código e das funcionalidades, e a previsibilidade do software antes do desenvolvimento.",
+                        "A comunicação entre todos os envolvidos e a eficácia das iterações."
+                    ],
+                    "correct": [
+                        "V",
+                        "F",
+                        "V",
+                        "V"
+                    ],
+                    "explanation": "O item 2 é falso: o DSDM valoriza o feedback de TODOS os envolvidos (não só da equipe de desenvolvimento), sendo esse um de seus princípios centrais."
+                },
+                {
+                    "id": "s9q9",
+                    "type": "multiple_choice",
+                    "prompt": "Cada método Crystal Clear é caracterizado por uma cor e quatro parâmetros determinam o método de desenvolvimento: Tamanho da equipe, Localização geográfica, Criticidade/ Segurança e Recursos. A respeito de suas cores assinale a sentença correta:",
+                    "options": [
+                        {
+                            "key": "a",
+                            "text": "Yellow: 20 a 50 membros. Orange: 10 a 20 membros. Red: 50 a 100 membros."
+                        },
+                        {
+                            "key": "b",
+                            "text": "Yellow: 10 a 20 membros. Orange: 20 a 50 membros. Red: 50 a 100 membros."
+                        },
+                        {
+                            "key": "c",
+                            "text": "Yellow: 50 a 100 membros. Orange: 20 a 50 membros. Red: 10 a 20 membros."
+                        },
+                        {
+                            "key": "d",
+                            "text": "Yellow: 10 a 20 membros. Orange: 50 a 100 membros. Red: 20 a 50 membros."
+                        }
+                    ],
+                    "correct": "b",
+                    "explanation": "Na família Crystal (Alistair Cockburn), o tamanho da equipe cresce com a 'cor': Clear (até 6-8), Yellow (10-20), Orange (20-50), Red (50-100), sendo essa a ordem crescente esperada."
+                },
+                {
+                    "id": "s9q10",
+                    "type": "multiple_choice",
+                    "prompt": "A Feature Driven Development (FDD) é uma metodologia ágil de desenvolvimento de software, sobre a qual é correto afirmar:",
+                    "options": [
+                        {
+                            "key": "a",
+                            "text": "Não pode ser combinado a outras técnicas para produção de sistemas."
+                        },
+                        {
+                            "key": "b",
+                            "text": "Possui cinco processos: Desenvolver um Modelo Abrangente, Construir a Lista de Funcionalidades, Planejar por Funcionalidade, Detalhar por Funcionalidade e Implementar por Funcionalidade."
+                        },
+                        {
+                            "key": "c",
+                            "text": "Divide os papéis em dois grupos (chave e apoio), atribuídos a um único participante cada."
+                        },
+                        {
+                            "key": "d",
+                            "text": "Mantém seu foco apenas na fase de implementação."
+                        }
+                    ],
+                    "correct": "b",
+                    "explanation": "Repetição da questão anterior sobre FDD — a resposta correta continua sendo os cinco processos clássicos do método."
+                }
+            ]
+        },
+        {
+            "title": "10. Verificação, Validação e Testes de Software",
+            "questions": [
+                {
+                    "id": "s10q1",
+                    "type": "multiple_choice",
+                    "prompt": "O principal objetivo do processo de verificação e validação (V&V) de software é estabelecer confiança de que o sistema de software atende tanto a sua especificação quanto às expectativas de seus usuários finais. Além das atividades de inspeção de software, outras atividades de suma importância no contexto do processo de V&V são aquelas relacionadas",
+                    "options": [
+                        {
+                            "key": "a",
+                            "text": "aos testes de software."
+                        },
+                        {
+                            "key": "b",
+                            "text": "à manutenção de software."
+                        },
+                        {
+                            "key": "c",
+                            "text": "à estimativa de custo de software."
+                        },
+                        {
+                            "key": "d",
+                            "text": "ao gerenciamento de configuração de software."
+                        }
+                    ],
+                    "correct": "a",
+                    "explanation": "Verificação e Validação (V&V) compreende principalmente inspeções e testes de software."
+                },
+                {
+                    "id": "s10q2",
+                    "type": "multiple_choice",
+                    "prompt": "A fase de elaboração dos testes de software é uma das partes mais importantes, no desenvolvimento de um software. Sobre o teste de caixa branca, assinale a alternativa correta.",
+                    "options": [
+                        {
+                            "key": "a",
+                            "text": "Teste feito pela equipe de testadores de software."
+                        },
+                        {
+                            "key": "b",
+                            "text": "Teste executado pelo usuário final do software."
+                        },
+                        {
+                            "key": "c",
+                            "text": "Teste executado após a implantação do software."
+                        },
+                        {
+                            "key": "d",
+                            "text": "Teste feito pelo próprio programador, que verifica se o código construído é funcional."
+                        }
+                    ],
+                    "correct": "d",
+                    "explanation": "O teste de caixa branca (estrutural) examina a lógica interna do código e é tipicamente feito pelo próprio desenvolvedor."
+                },
+                {
+                    "id": "s10q3",
+                    "type": "multiple_choice",
+                    "prompt": "Dentre as técnicas de teste de software, há os testes denominados de caixa preta e aqueles denominados de caixa branca. Testes do tipo caixa",
+                    "options": [
+                        {
+                            "key": "a",
+                            "text": "preta visam exercitar as interfaces do software sob teste."
+                        },
+                        {
+                            "key": "b",
+                            "text": "preta e branca visam detectar os mesmos tipos de erros."
+                        },
+                        {
+                            "key": "c",
+                            "text": "preta não são aplicáveis a software de pequeno porte."
+                        },
+                        {
+                            "key": "d",
+                            "text": "branca também são chamados de testes comportamentais."
+                        }
+                    ],
+                    "correct": "a",
+                    "explanation": "Testes de caixa preta (funcionais) avaliam entradas e saídas, exercitando as interfaces do sistema, sem olhar a implementação interna."
+                },
+                {
+                    "id": "s10q4",
+                    "type": "multiple_choice",
+                    "prompt": "O processo de confirmação que um software vai ao:",
+                    "options": [
+                        {
+                            "key": "a",
+                            "text": "Validação."
+                        },
+                        {
+                            "key": "b",
+                            "text": "Verificação."
+                        },
+                        {
+                            "key": "c",
+                            "text": "Precisão."
+                        },
+                        {
+                            "key": "d",
+                            "text": "Confiabilidade."
+                        }
+                    ],
+                    "correct": "a",
+                    "explanation": "Validação responde 'estamos construindo o produto certo?' (atende às necessidades do usuário); Verificação responde 'estamos construindo o produto corretamente?' (conforme a especificação)."
+                },
+                {
+                    "id": "s10q5",
+                    "type": "multiple_choice",
+                    "prompt": "Qual é o tipo de teste que focaliza o esforço de verificação na menor unidade de projeto de software, isto é, no componente ou no módulo de software?",
+                    "options": [
+                        {
+                            "key": "a",
+                            "text": "Teste de integração."
+                        },
+                        {
+                            "key": "b",
+                            "text": "Teste de unidade."
+                        },
+                        {
+                            "key": "c",
+                            "text": "Teste de validação."
+                        },
+                        {
+                            "key": "d",
+                            "text": "Teste de sistema."
+                        }
+                    ],
+                    "correct": "b",
+                    "explanation": "O teste de unidade verifica isoladamente o menor componente/módulo do software."
+                },
+                {
+                    "id": "s10q6",
+                    "type": "true_false_list",
+                    "prompt": "Os testes de software são executados em diferentes níveis do desenvolvimento de um software. A respeito dos quatro principais níveis de testes de software, assinale abaixo com V para verdadeiro ou F para falso:",
+                    "items": [
+                        "Teste de Unidade é realizado em conjunto com os clientes, comparando o sistema com a descrição dos requisitos.",
+                        "O Teste de Integração busca provocar falhas associadas às interfaces entre módulos quando integrados na estrutura definida no projeto.",
+                        "O Teste de Sistema avalia o software em busca de falhas utilizando-o como se fosse um usuário final.",
+                        "O Teste de Aceitação é realizado em cada componente do programa isoladamente, verificando entradas esperadas."
+                    ],
+                    "correct": [
+                        "F",
+                        "V",
+                        "V",
+                        "F"
+                    ],
+                    "explanation": "Os itens 1 e 4 estão trocados: a descrição do item 1 ('em conjunto com clientes, comparando com requisitos') é do Teste de ACEITAÇÃO, não de Unidade; e a descrição do item 4 ('cada componente isoladamente') é do Teste de UNIDADE, não de Aceitação."
+                },
+                {
+                    "id": "s10q7",
+                    "type": "multiple_choice",
+                    "prompt": "Quais são os cinco fatores de qualidade classificados por Rational Unified Process nos testes de software:",
+                    "options": [
+                        {
+                            "key": "a",
+                            "text": "Funcionalidade, Acessibilidade, Confiabilidade, Performance e Conectividade."
+                        },
+                        {
+                            "key": "b",
+                            "text": "Requisitos, Usabilidade, Segurança, Desempenho e Suportabilidade."
+                        },
+                        {
+                            "key": "c",
+                            "text": "Requisitos, Acessibilidade, Segurança, Performance e Conectividade."
+                        },
+                        {
+                            "key": "d",
+                            "text": "Funcionalidade, Usabilidade, Confiabilidade, Desempenho e Suportabilidade."
+                        }
+                    ],
+                    "correct": "d",
+                    "explanation": "É o modelo FURPS do RUP: Functionality, Usability, Reliability, Performance, Supportability."
+                },
+                {
+                    "id": "s10q8",
+                    "type": "multiple_choice",
+                    "prompt": "O desenvolvimento dirigido a testes (TDD, do Inglês TestDriven Development) é uma abordagem de desenvolvimento de software na qual se intercalam testes e desenvolvimento de código. Uma das características da abordagem TDD é:",
+                    "options": [
+                        {
+                            "key": "a",
+                            "text": "A redução da importância da automatização dos testes."
+                        },
+                        {
+                            "key": "b",
+                            "text": "O maior custo associado aos testes de regressão."
+                        },
+                        {
+                            "key": "c",
+                            "text": "A sua utilidade no desenvolvimento de softwares novos."
+                        },
+                        {
+                            "key": "d",
+                            "text": "A sua adequação a processos de software sequenciais."
+                        }
+                    ],
+                    "correct": "c",
+                    "explanation": "O TDD é particularmente útil no desenvolvimento de software novo, escrevendo testes antes do código de produção, em ciclos curtos — não é adequado a processos puramente sequenciais/cascata."
+                }
+            ]
+        },
+        {
+            "title": "11. Governança de TI",
+            "questions": [
+                {
+                    "id": "s11q1",
+                    "type": "multiple_choice",
+                    "prompt": "O principal objetivo da Governança de TI é:",
+                    "options": [
+                        {
+                            "key": "a",
+                            "text": "Entender as estratégias do negócio e traduzi-las em planos para sistemas, aplicações, estrutura, processos e infraestrutura."
+                        },
+                        {
+                            "key": "b",
+                            "text": "Alinhar TI aos requisitos do negócio, com base na continuidade do negócio, atendimento às estratégias e a marcos de regulação externos."
+                        },
+                        {
+                            "key": "c",
+                            "text": "Implantar os projetos e serviços planejados e priorizados."
+                        },
+                        {
+                            "key": "d",
+                            "text": "Prover a TI da estrutura de processos para gestão do risco à continuidade operacional."
+                        }
+                    ],
+                    "correct": "b",
+                    "explanation": "O objetivo central da Governança de TI é alinhar a área de TI aos objetivos/requisitos do negócio, garantindo continuidade, atendimento a estratégias e conformidade regulatória."
+                },
+                {
+                    "id": "s11q2",
+                    "type": "multiple_choice",
+                    "prompt": "Um dos modelos utilizados para governança de TI tem o propósito de sincronizar as necessidades do negócio com a gestão da tecnologia, com o foco na qualidade dos serviços prestados. O modelo descrito é:",
+                    "options": [
+                        {
+                            "key": "a",
+                            "text": "ITIL."
+                        },
+                        {
+                            "key": "b",
+                            "text": "Cobit."
+                        },
+                        {
+                            "key": "c",
+                            "text": "PMBOK."
+                        },
+                        {
+                            "key": "d",
+                            "text": "Scrum."
+                        }
+                    ],
+                    "correct": "a",
+                    "explanation": "O ITIL é o framework de referência voltado à gestão de serviços de TI, com foco na qualidade dos serviços prestados ao negócio."
+                },
+                {
+                    "id": "s11q3",
+                    "type": "multiple_choice",
+                    "prompt": "A missão do COBIT é:",
+                    "options": [
+                        {
+                            "key": "a",
+                            "text": "Promover o desenvolvimento da padronização e atividades de qualidade para facilitar comércio de produtos e serviços."
+                        },
+                        {
+                            "key": "b",
+                            "text": "Promover a segurança da informação, seu escopo e importância como mecanismo de compartilhamento de informações."
+                        },
+                        {
+                            "key": "c",
+                            "text": "Criar um padrão para gerenciar projetos em vários setores, descrevendo processos, ferramentas e técnicas de gerenciamento."
+                        },
+                        {
+                            "key": "d",
+                            "text": "Pesquisar, desenvolver, publicar e promover um modelo de governança de TI atualizado e internacionalmente reconhecido."
+                        }
+                    ],
+                    "correct": "d",
+                    "explanation": "Essa é a missão declarada do COBIT (ISACA): oferecer um framework de governança de TI reconhecido internacionalmente."
+                },
+                {
+                    "id": "s11q4",
+                    "type": "multiple_choice",
+                    "prompt": "No contexto da ITIL, analise os itens a seguir: I. Provedor de serviços internos. II. Unidade de serviços compartilhados. III. Provedor de serviços externos. São tipos de provedores de serviços descritos pela ITIL?",
+                    "options": [
+                        {
+                            "key": "a",
+                            "text": "Apenas II."
+                        },
+                        {
+                            "key": "b",
+                            "text": "Apenas I e II."
+                        },
+                        {
+                            "key": "c",
+                            "text": "Apenas II e III."
+                        },
+                        {
+                            "key": "d",
+                            "text": "I, II e III."
+                        }
+                    ],
+                    "correct": "d",
+                    "explanation": "A ITIL descreve três tipos de provedores de serviço: interno (Tipo I), unidade de serviços compartilhados (Tipo II) e externo (Tipo III). Os três (I, II e III) são válidos."
+                },
+                {
+                    "id": "s11q5",
+                    "type": "multiple_choice",
+                    "prompt": "O ciclo Operação de Serviço, do ITIL, é composto por vários processos e funções.\n\nAssinale os dois processos do ciclo operação de serviços.",
+                    "options": [
+                        {
+                            "key": "a",
+                            "text": "Central de serviços e gerenciamento de incidentes."
+                        },
+                        {
+                            "key": "b",
+                            "text": "Gerenciamento técnico e gerenciamento de problemas."
+                        },
+                        {
+                            "key": "c",
+                            "text": "Gerenciamento de eventos e cumprimento de requisição."
+                        },
+                        {
+                            "key": "d",
+                            "text": "Gerenciamento de operações de TI e gerenciamento de acesso."
+                        }
+                    ],
+                    "correct": "a",
+                    "explanation": "Central de Serviços (Service Desk) e Gerenciamento de Incidentes são processos/funções centrais do ciclo de Operação de Serviço da ITIL."
+                },
+                {
+                    "id": "s11q6",
+                    "type": "multiple_choice",
+                    "prompt": "A Tabela ou Matriz RACI descreve os papéis e as responsabilidades dos processos identificando, necessariamente:",
+                    "options": [
+                        {
+                            "key": "a",
+                            "text": "responsáveis pela execução, aprovadores, consultados sobre informações e informados sobre o andamento das atividades."
+                        },
+                        {
+                            "key": "b",
+                            "text": "responsáveis pela execução, patrocinadores, revisores e informados sobre o andamento das atividades."
+                        },
+                        {
+                            "key": "c",
+                            "text": "revisores, aprovadores, elaboradores e patrocinadores das atividades."
+                        },
+                        {
+                            "key": "d",
+                            "text": "revisores da execução, auditores do processo, consultados e informados sobre o andamento das atividades."
+                        }
+                    ],
+                    "correct": "a",
+                    "explanation": "RACI = Responsible (executa), Accountable (aprova/responde), Consulted (consultado) e Informed (informado)."
+                }
+            ]
+        }
+    ]
+}
